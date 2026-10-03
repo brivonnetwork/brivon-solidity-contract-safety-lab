@@ -8,7 +8,8 @@
     "node": ">=22.13.0"
   },
   "scripts": {
-    "compile": "hardhat build"
+    "compile": "hardhat build",
+    "api:networks": "node --env-file=.env scripts/list-networks.mjs"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox-viem": "5.0.7",
