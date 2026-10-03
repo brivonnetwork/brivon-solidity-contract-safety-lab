@@ -1,0 +1,17 @@
+{
+  "name": "brivon-solidity-contract-safety-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-only Solidity learning examples for reentrancy and checks-effects-interactions",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "compile": "hardhat build"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "5.0.7",
+    "hardhat": "3.9.1"
+  }
+}
